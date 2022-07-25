@@ -1,0 +1,59 @@
+@import "handsontable/dist/handsontable.full.min.css";
+
+.wtBorder.current,
+.wtBorder.area {
+    background-color: #93eeee !important;
+}
+
+.wtHolder {
+    margin: 0 auto;
+}
+
+.handsontable td.area:before {
+    background: #ffffff !important;
+}
+
+.handsontable {
+    @apply font-sans
+}
+
+.handsontable td, .handsontable th {
+    @apply text-center align-middle
+}
+
+.handsontable th {
+    @apply text-xs font-medium text-gray-500 tracking-wider bg-white
+}
+
+.ht__active_highlight {
+    @apply !bg-cyan-400 !text-white !font-semibold
+}
+
+.handsontable input:focus,
+.handsontable textarea:focus {
+    @apply outline-none border-0 ring-2 ring-cyan-400 ring-inset caret-gray-600
+}
+
+.current-header {
+    @apply !bg-indigo-200
+}
+
+.current-col-row {
+    @apply !bg-gray-50
+}
+
+.highlight-error {
+    @apply ring-[2px] ring-inset ring-red-300
+}
+
+.read-only {
+    @apply text-gray-300
+}
+
+.handson-table {
+    @apply !text-gray-400 lg:text-lg
+}
+
+.handsontableInput {
+    @apply text-gray-500
+}

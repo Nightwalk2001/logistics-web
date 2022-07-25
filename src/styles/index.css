@@ -1,0 +1,8 @@
+@import "base.css";
+@import "fonts.css";
+@import "utilties.css";
+@import "table.css";
+@import "toastify.css";
+@import "datepicker.css";
+
+@tailwind components;
